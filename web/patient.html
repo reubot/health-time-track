@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Patient Lookup</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -21,28 +21,22 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
         <div class="main-container">
             <div class="main wrapper clearfix">
 
                 <form>
                     <header>
-                        <h1>Login</h1>
+                        <h1>Find Patient</h1>
                     </header>
                     <section>
-					<label>Username<input name="login" inputmode="verbatim"  type="text" /></label><br />
-					<label>Facility
-					<input list="facList" name="facility" /></label>
-<datalist id="facList">
-  <option value="Royal Brisbane and Womens Hospital">
-  <option value="Princess Alexandra Hospital">
-  <option value="Prince Charles">
-  <option value="Mater Hospital">
-</datalist>
-<br />
+					
+					<input type="button" value="Scan" /><br />
+					
+					<label>Name<input name="name" inputmode="verbatim"  type="text" /></label><br />
+					<label>ID<input name="id" type="text" /></label><br />
 
 		<!--		<label>Username<input name="login" inputmode="verbatim"  type="text" /></label> <br />-->
-<input type="submit" value="Login" />
+<input type="submit" value="Submit" />
                     </section>
                 </form>
 <!--
