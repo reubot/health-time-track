@@ -25,21 +25,21 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <form>
+                <form action="patient.php" method="post">
                     <header>
                         <h1>Login</h1>
                     </header>
                     <section>
-					<label>Username<input name="login" inputmode="verbatim"  type="text" /></label><br />
-					<label>Facility
+					<div><label>Username<input name="login" inputmode="verbatim"  type="text" /></label><br />
+					</div><div><label>Facility
 					<input list="facList" name="facility" /></label>
 <datalist id="facList">
   <option value="Royal Brisbane and Womens Hospital">
   <option value="Princess Alexandra Hospital">
   <option value="Prince Charles">
   <option value="Mater Hospital">
-</datalist>
-<br />
+</datalist></div>
+
 
 		<!--		<label>Username<input name="login" inputmode="verbatim"  type="text" /></label> <br />-->
 <input type="submit" value="Login" />
