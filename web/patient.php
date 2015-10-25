@@ -28,6 +28,9 @@
                 <h1 class="title">Find Patient</h1>
             </header>
         </div>
+		<?php
+echo 'Hello ' . htmlspecialchars($_POST["login"]) . '!';
+?></br>
 		
                 <form>
 
@@ -35,9 +38,7 @@
 					
 					<input type="button" value="Scan" /><br />
 
-<?php
-echo 'Hello ' . htmlspecialchars($_POST["username"]) . '!';
-?>
+
 					
 					<label>Name<input name="name" inputmode="verbatim"  type="text" /></label><br />
 					<label>ID<input name="id" type="text" /></label><br />
