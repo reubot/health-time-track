@@ -35,6 +35,10 @@
                     <section>
 					
 					<input type="button" value="Scan" /><br />
+
+<?php
+echo 'Hello ' . htmlspecialchars($_POST["name"]) . '!';
+?>
 					
 					<label>Name<input name="name" inputmode="verbatim"  type="text" /></label><br />
 					<label>ID<input name="id" type="text" /></label><br />
